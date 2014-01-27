@@ -320,4 +320,4 @@
 - jQuery
 - Heru
 
-####**Just Be Initiative**. Regard [Novay](www.novay.web.id).
+####**Just Be Initiative**. Regard [Novay](http://novay.web.id).
