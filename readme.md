@@ -22,7 +22,7 @@
   - Download [Twitter Bootstrap](http://getbootstrap.com/) (kita pake cara manual), lalu extract kedalam proyek laravel,
   - Dalam hal ini letakkan dalam `nama-proyek/public/*`
   - Sama halnya dengan [jQuery](jhttp://jquery.com), dan letakkan dalam `nama-proyek/public/js/*`.
-  - Ditempat yang sama, buat file baru dengan nama (katakan) `validasi.js`
+  - Ditempat yang sama dengan jQuery, buat file baru dengan nama (katakan) `validasi.js`
 
 - ###Konfigurasi Database
   - Buka `nama-proyek/app/config/database.php`
@@ -67,9 +67,9 @@
 
 	}
 	```
-- terakhir, dalam direktori yg sama, buka file `DatabaseSeeder.php`
-- selipkan kode `$this->call('TabelUserSeeder');` dibawah kode `Eloquent::unguard();`
-- kembali ke `terminal`, eksekusi `php artisan db:seed`
+  - terakhir, dalam direktori yg sama, buka file `DatabaseSeeder.php`
+  - selipkan kode `$this->call('TabelUserSeeder');` dibawah kode `Eloquent::unguard();`
+  - kembali ke **terminal**, eksekusi `php artisan db:seed`
 
 - ###Models
   - Berhubung nama tabel yg dibuat bernama `users`, jadi perubahan pada models tidak dibutuhkan. Karena secara default, laravel akan mengakses tabel users sebagai tabel bawaan pengguna. Anda bisa memastikannya di `nama-proyek/app/models/User.php` pada syntax `protected $table = 'users';`, dimana `users` disini bertindak sebagai tabel tujuan.
@@ -312,7 +312,7 @@
 
  - ###Selesai		
    - Kembali ke **Terminal** lalu jalankan perintah `php artisan serv`.
-   - Buka Browser, dan akses `localhost:8000`.
+    - Buka Browser, dan akses `localhost:8000`.
 
 ##Credit
 - Laravel
@@ -320,4 +320,4 @@
 - jQuery
 - Heru
 
-##**Just Be Initiative**. Regard [Novay](www.novay.web.id).
+####**Just Be Initiative**. Regard [Novay](www.novay.web.id).
